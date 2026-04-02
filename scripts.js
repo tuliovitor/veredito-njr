@@ -45,8 +45,8 @@ function getSupabase() {
   // Se forem, o Supabase não é inicializado (modo offline)
   if (
     typeof window.supabase !== 'undefined' &&
-    SUPABASE_URL !== 'https://luqvdlymdruncnnljtyu.supabase.co' &&
-    SUPABASE_ANON_KEY !== 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx1cXZkbHltZHJ1bmNubmxqdHl1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUxNTY4MzIsImV4cCI6MjA5MDczMjgzMn0.rgVjCAQJYctMH8KEzYbyOEdRYluakd5MXDX5f6XRltc'
+    SUPABASE_URL !== 'YOUR_SUPABASE_URL' &&
+    SUPABASE_ANON_KEY !== 'YOUR_SUPABASE_ANON_KEY'
   ) {
     _supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
     console.log('✅ Supabase inicializado com sucesso!');
