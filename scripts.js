@@ -3,7 +3,7 @@
 // ─── Configuração ───────────────────────────────────────────
 // ⚠️ SUBSTITUA pelos valores reais em: Supabase → Settings → API
 const SUPABASE_URL = 'https://luqvdlymdruncnnljtyu.supabase.co';
-const SUPABASE_ANON_KEY = 'S8Hf9X0OvurGC1VGXIVt5g_ySrsY96M';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx1cXZkbHltZHJ1bmNubmxqdHl1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUxNTY4MzIsImV4cCI6MjA5MDczMjgzMn0.rgVjCAQJYctMH8KEzYbyOEdRYluakd5MXDX5f6XRltc';
 const STORAGE_KEY = 'veredito_voted';
 const TABLE = 'votes';
 
