@@ -23,7 +23,7 @@ const STRINGS = {
   labelYes: 'Sim, levaria',
   labelNo: 'Não levaria',
   votesTotal: (n) =>
-    `${n.toLocaleString('pt-BR')} torcedor${n !== 1 ? 'es' : ''} já votou${n !== 1 ? 'ram' : ''}`,
+    `${n.toLocaleString('pt-BR')} torcedor${n !== 1 ? 'es' : ''} já votaram${n !== 1 ? '' : ''}`,
 };
 
 // ─── Estado da aplicação ────────────────────────────────────
