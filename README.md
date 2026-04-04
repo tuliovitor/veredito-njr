@@ -34,8 +34,6 @@ O resultado é uma single-page com fluxo de 3 telas, votos salvos no Supabase e 
 |---|---|
 | ![Desktop](./assets/preview-desktop.png) | ![Mobile](./assets/preview-mobile.png) |
 
-> 💡 *Substitua as imagens acima por screenshots reais do seu projeto*
-
 ---
 
 ## ✨ Funcionalidades
